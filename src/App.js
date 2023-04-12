@@ -4,6 +4,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header"></header>
+      <footer>
+        This is created by Amrutha Iyyapu and is{" "}
+        <a
+          href="https://github.com/AmruthaIyyapu/react-weather-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open sourced at Git-hub
+        </a>
+      </footer>
     </div>
   );
 }
