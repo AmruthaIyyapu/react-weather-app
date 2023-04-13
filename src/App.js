@@ -1,21 +1,24 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
-      <footer>
-        This is created by Amrutha Iyyapu and is{" "}
-        <a
-          href="https://github.com/AmruthaIyyapu/react-weather-app"
-          target="_blank"
-          rel="noreferrer"
-        >
-          open sourced at Git-hub
-        </a>
-      </footer>
+      <div className="container">
+        <header className="App-header">
+          <h1 className="text-primary">Weather App</h1>
+        </header>
+        <footer>
+          This is created by Amrutha Iyyapu and is{" "}
+          <a
+            href="https://github.com/AmruthaIyyapu/react-weather-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open sourced at Git-hub
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
