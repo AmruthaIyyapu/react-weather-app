@@ -31,28 +31,38 @@
   display: inline-block;
   height: 64px;
   width: 60px;
-  margin-right: 10px;
-  margin-top: 10px;
+
+  vertical-align: top;
 }
 
 .temperature {
   color: rgb(32, 33, 36);
-
+  display: inline;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 400;
-  line-height: 64px;
+  line-height: 56px;
+}
+
+.temp-data {
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 16px;
+  vertical-align: top;
 }
 
 .unit {
   color: rgb(32, 33, 36);
-
   display: inline;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   position: relative;
-  top: -32px;
+  top: -25px;
   margin-left: 5px;
+}
+
+.clearfix {
+  margin-top: 10px;
 }

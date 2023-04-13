@@ -38,7 +38,7 @@ export default function Weather() {
               alt="weather"
               className="float-left"
             ></img>
-            <div className="float-left">
+            <div className=" temp-data float-left">
               <span className="temperature">26</span>
               <span className="unit">ºC</span>
             </div>
