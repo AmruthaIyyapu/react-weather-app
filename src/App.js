@@ -7,15 +7,16 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1 className="text-primary">Weather App</h1>
+          <h1 className="text-primary text-center mb-4">Weather App</h1>
         </header>
         <Weather />
-        <footer>
+        <footer className="m-3">
           This is created by Amrutha Iyyapu and is{" "}
           <a
             href="https://github.com/AmruthaIyyapu/react-weather-app"
             target="_blank"
             rel="noreferrer"
+            className="text-decoration-none"
           >
             open sourced at Git-hub
           </a>
