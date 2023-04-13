@@ -1,5 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Weather from "./Weather";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
         <header className="App-header">
           <h1 className="text-primary">Weather App</h1>
         </header>
+        <Weather />
         <footer>
           This is created by Amrutha Iyyapu and is{" "}
           <a

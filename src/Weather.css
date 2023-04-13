@@ -1,0 +1,10 @@
+.weather {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
