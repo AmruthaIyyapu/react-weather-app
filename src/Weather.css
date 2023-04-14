@@ -29,9 +29,8 @@
 
 .Weather canvas {
   display: inline-block;
-  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 10px;
-
   vertical-align: top;
 }
 
@@ -46,7 +45,6 @@
 
 .temp-data {
   display: inline-block;
-
   font-size: 16px;
   vertical-align: top;
   margin-top: 10px;
@@ -63,6 +61,11 @@
   top: -25px;
   margin-left: 5px;
 }
+
 .clearfix {
   margin-top: 10px;
+}
+
+.clearfix div {
+  display: inline-block;
 }
