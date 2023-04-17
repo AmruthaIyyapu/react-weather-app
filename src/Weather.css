@@ -1,13 +1,19 @@
+:root {
+  --primary-color: #de3c3c;
+}
+
 .Weather {
-  border: 1px solid gray;
-  border-radius: 5px;
+  border: 2px solid #ffe8d6;
+  border-radius: 30px;
   padding: 40px;
   margin: 20px;
+  background: #f9f6f7;
 }
 
 .Weather h1 {
   font-size: 35px;
   line-height: 29px;
+  color: var(--primary-color);
 }
 
 .Weather ul {
@@ -25,6 +31,7 @@
 
 .Weather .search-button {
   font-size: 20px;
+  background-color: var(--primary-color);
 }
 
 .Weather canvas {
@@ -35,7 +42,7 @@
 }
 
 .temperature {
-  color: rgb(32, 33, 36);
+  color: black;
   display: inline;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 48px;
@@ -51,7 +58,7 @@
 }
 
 .unit {
-  color: rgb(32, 33, 36);
+  color: #8d99ae;
   display: inline;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
